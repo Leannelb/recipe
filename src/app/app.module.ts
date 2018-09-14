@@ -10,6 +10,7 @@ import { IngredientComponent } from './components/shopping/ingredient/ingredient
 import { RecipieListComponent } from './components/recipe/recipe/recipie-list/recipie-list.component';
 import { RecipieItemComponent } from './components/recipe/recipe/recipie-item/recipie-item.component';
 import { RecipieDetailComponent } from './components/recipe/recipe/recipie-detail/recipie-detail.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RecipieDetailComponent } from './components/recipe/recipe/recipie-detai
     IngredientComponent,
     RecipieListComponent,
     RecipieItemComponent,
-    RecipieDetailComponent
+    RecipieDetailComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
